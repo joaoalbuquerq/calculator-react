@@ -1,0 +1,16 @@
+.content{
+    margin: 1rem auto;
+    background: black;
+    width: 25rem;
+    padding: 1rem;
+}
+
+button{
+    width: 90%;
+    margin-bottom: 1rem !important;
+}
+
+input[type=text]{
+    width: 96%;
+    margin-left: 0.25rem;
+}
