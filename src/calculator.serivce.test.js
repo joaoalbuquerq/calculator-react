@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import CalculatorSerivce from './calculator.service'
 
 describe('Teste do calculadoraSerive', () => {
-    const [calcular,soma,sub,div,mult] = CalculatorSerivce()
+    const [calcular,concatenarNumeros,soma,sub,div,mult] = CalculatorSerivce()
 
     it('Deve garantir que 4 + 4 = 8.',() => {
         let adicao = calcular(4,4,soma)

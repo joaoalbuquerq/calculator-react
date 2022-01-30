@@ -1,16 +1,32 @@
 .content{
     margin: 1rem auto;
-    background: black;
+    background: #22252D;
     width: 25rem;
     padding: 1rem;
+
 }
 
 button{
     width: 90%;
     margin-bottom: 1rem !important;
+    color: white;
+    border: 0;
+    padding: 10px;
+    background: none;
+    font-weight: bold;
 }
 
 input[type=text]{
     width: 96%;
     margin-left: 0.25rem;
+}
+
+.operations{
+    color: #AC5356;
+    padding: 10px;
+    border-radius: 10%;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    background: #272a31a1;
 }
